@@ -1,0 +1,102 @@
+# === Общие шаблоны ===
+
+include:
+  - project: 'cicd/gitbook'
+    ref: v1.0
+    file: '/config/stages.yml'
+  - project: 'cicd/gitbook'
+    ref: v1.0
+    file: '/config/templates.yml'
+
+# === Локальные шаблоны ===
+
+.runner_gitbook: &runner_gitbook
+  tags:
+    - gitbook
+
+.only_branches: &only_branches
+  only:
+    - branches
+  variables:
+    deploy_dir: $BASE_DEPLOY_DIR/$CI_PROJECT_PATH/$CI_COMMIT_REF_NAME
+  
+.release_template: &release
+  only:
+    - /^v(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)(?:$|-)/
+  except:
+    - branches
+
+# === Этап pre-build ===
+
+## устанавливаем плагины gitbook
+install_gitbook_plugins:
+  <<: *runner_gitbook
+  extends: .gitbook_plugins_install
+
+# === Этап build ===
+
+## собираем HTML версию
+build_html:
+  <<: *runner_gitbook
+  extends: .build_html
+
+## собираем PDF версию
+build_pdf:
+  <<: *runner_gitbook
+  extends: .build_pdf
+
+# === Этап pre-deploy ===
+
+## создаем каталог развертывания документации
+make_docs_deploy_dir:
+  <<: *runner_gitbook
+  <<: *only_branches
+  extends: .make_docs_deploy_dir
+
+# === Этап deploy ===
+
+## развертывание HTML версии
+deploy_html:
+  <<: *runner_gitbook
+  <<: *only_branches
+  dependencies:
+    - build_html
+  environment:
+    on_stop: cleanup_gitbook_env
+  extends: .deploy_html
+  dependencies:
+    - build_html
+
+## развертывание PDF версии
+deploy_docs_pdf:
+  <<: *runner_gitbook
+  <<: *only_branches
+  extends: .deploy_pdf
+  dependencies:
+    - build_pdf
+
+## публикация HTML версии
+publish_html:
+  <<: *runner_gitbook
+  <<: *release
+  dependencies:
+    - build_html
+  environment:
+    url: https://help.loginom.ru/adminguide
+  extends: .deploy_html_public
+
+# == Этап testing ===
+
+## проверка ссылок в HTML версии
+links_check:
+  <<: *runner_gitbook
+  <<: *only_branches
+  only:
+    - branches
+  extends: .links_check_html
+
+# === очистка тестовой среды ===
+cleanup_gitbook_env:
+  <<: *runner_gitbook
+  <<: *only_branches
+  extends: .cleanup_gitbook_env
