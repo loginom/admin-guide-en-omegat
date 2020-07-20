@@ -9,14 +9,18 @@
             <mask>**/desktop.ini</mask>
             <mask>**/Thumbs.db</mask>
             <mask>**/.DS_Store</mask>
+            <mask>.git</mask>
+            <mask>*.png</mask>
+            <mask>*.jpg</mask>
+            <mask>*.svg</mask>
         </source_dir_excludes>
-        <target_dir>data-en</target_dir>
-        <tm_dir>l10n/tm</tm_dir>
-        <glossary_dir>l10n/glossary</glossary_dir>
-        <glossary_file>glossary.txt</glossary_file>
-        <dictionary_dir>l10n/dictionary</dictionary_dir>
-        <source_lang>RU</source_lang>
-        <target_lang>EN</target_lang>
+        <target_dir>data</target_dir>
+        <tm_dir>__DEFAULT__</tm_dir>
+        <glossary_dir>__DEFAULT__</glossary_dir>
+        <glossary_file>__DEFAULT__</glossary_file>
+        <dictionary_dir>__DEFAULT__</dictionary_dir>
+        <source_lang>ru</source_lang>
+        <target_lang>en</target_lang>
         <source_tok>org.omegat.tokenizer.LuceneRussianTokenizer</source_tok>
         <target_tok>org.omegat.tokenizer.LuceneEnglishTokenizer</target_tok>
         <sentence_seg>true</sentence_seg>
