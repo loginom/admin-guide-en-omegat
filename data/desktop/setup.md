@@ -4,7 +4,7 @@ The installer file name versions:
 
 * LoginomPersonal_6.x.x_x64.msi — installer for the 64-bit Personal edition
 * LoginomPersonal_6.x.x_x86.msi — installer for the 32-bit Personal edition
-* LoginomAcademic_6.x.x.msi — installer for the Academic edition
+* LoginomCommunity_6.x.x.msi — инсталлятор для редакции Community
 
 where 6.x.x – figures denoting software version and release.
 

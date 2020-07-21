@@ -1,14 +1,14 @@
 # Loginom Desktop
 
-The desktop version of the platform is designated for installation on the local computer when only one user operation is anticipated.
+Настольная версия платформы предназначена для установки на локальном компьютере, когда подразумевается работа одного пользователя.
 
 The 64-bit Loginom Desktop version can process significant data arrays limited only by workstation resources. Loginom Desktop does not include tools for collaborative work, access permissions, publications and work with web services.
 
-The desktop component is included in the Loginom Personal platform version.
+Компонент Desktop входит в редакции платформы Loginom Personal и Loginom Community.
 
 ## System Requirements
 
-### Personal x86
+### Loginom Personal, Loginom Community (32 бита)
 
 | Component | Minimum | Recommended |
 |:--------- |:-------------|:------------- |
@@ -20,7 +20,7 @@ The desktop component is included in the Loginom Personal platform version.
 
 > **IMPORTANT:** The capacity of used RAM is limited by 2 GB (platform limit x86).
 
-### Personal x64
+### Loginom Personal, Loginom Community (64 бита)
 
 | Component | Minimum | Recommended |
 |:--------- |:-------------|:------------- |

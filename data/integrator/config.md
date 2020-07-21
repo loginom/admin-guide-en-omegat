@@ -41,7 +41,9 @@ It is possible to enable the following modes:
 
 It is possible to assign the minimum level of detail to each mode:
 
-* **All** - trace;
+* **All** - все события;
+* **Trace** - трассировка;
+* **Debug** - отладка;
 * **Info** - info;
 * **Warn** - warnings;
 * **Error**- errors;
@@ -49,6 +51,8 @@ It is possible to assign the minimum level of detail to each mode:
 * **Off** - logging off.
 
 In the case of default setup, writing to file with the Info detailing level is enabled. Logs are recorded in the `%ALLUSERSPROFILE%\BaseGroup\Loginom 6\Integrator\Logs\` directory.
+
+> **Примечание**: запись в лог текстов запросов и ответов сервиса осуществляется при уровне логирования не ниже `Trace`.
 
 ### Write to File
 
@@ -90,10 +94,35 @@ It is required to set the following attributes for binding:
 * **userNameColumn** - field name for the user record on whose behalf the Integrator process was initiated;
 * **appDomainColumn** - field name for the application domain identifier record;
 * **requestIdColumn** - field name for the unique identifier request record;
+* **packageNameColumn** - имя поля для записи имени исполняемого пакета;
+* **nodeNameColumn** - имя поля для записи имени исполняемого узла;
 * **messageColumn** - field name for the event text record;
 * **exceptionColumn** - field name for the error text record;
+* **requestColumn** - имя поля для записи текста запроса к веб-сервису;
+* **responseColumn** - имя поля для записи текста ответа веб-сервиса.
 
 Attributes with field names can be absent or contain blank values. In this regard, corresponding data must not be logged.
+
+%spoiler%Пример скрипта создания таблицы хранения логов в MS SQL:%spoiler%
+
+```SQL
+/* может потребоваться корректировка размерности полей nvarchar */
+CREATE TABLE [dbo].[Logs](
+    [Date] [datetime2](4),
+    [Level] [nvarchar](10),
+    [MachineName] [nvarchar](100),
+    [AppDomain] [nvarchar](200),
+    [RequestId] [nvarchar](32),
+    [PackageName] [nvarchar](100) NULL,
+    [NodeName] [nvarchar](100) NULL,
+    [Message] [nvarchar](max) NULL,
+    [Exception] [nvarchar](max) NULL,
+    [Request] [nvarchar](max) NULL,
+    [Response] [nvarchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+```
+
+%/spoiler%
 
 #### SQL Query
 
@@ -109,8 +138,14 @@ It is required to specify the following parameters in the query as set values:
 * **:username** - name of the user on whose behalf the Integrator process was initiated;
 * **:appdomain** - application domain identifier;
 * **:requestid** - unique request identifier;
+* **:packagename** - имя исполняемого пакета;
+* **:nodename** - имя исполняемого узла;
 * **:message** - event text;
 * **:exception** - error text;
+* **:request** - текст запроса к веб-сервису;
+* **:response** - текст ответа веб-сервиса.
+
+> **Примечание**: применение атрибута `userNameColumn` и соответствующего ему параметра `:username`  заметно увеличивает время выполнения операции логирования. Рекомендуется не использовать их без необходимости.
 
 ### Logging events record
 

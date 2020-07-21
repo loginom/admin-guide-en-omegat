@@ -2,14 +2,14 @@
 
 There are [components of integration with the SOAP and REST services](https://help.loginom.ru/userguide/integration/web-services/) in the analytical Loginom platform that implement the most wide-spread variants of interaction with the web services. But some web services, for example, CRB, use the individual protocols and data encryption which preclude interaction using the standard Loginom means. Loginom Adapter provides a solution to this problem (hereafter referred to as the *Adapter*).
 
-The *Adapter* is an intermediate web service between the workflow executed in Loginom and the external web services. Interaction with the *Adapter* from the Loginom workflow is performed according to the standard SOAP protocol using the [Web service invocation](https://help.loginom.ru/userguide/processors/integration/calling-web-service.html) node. In return the *Adapter performs the following tasks:*:
+The *Adapter* is an intermediate web service between the workflow executed in Loginom and the external web services. Interaction with the *Adapter* from the Loginom workflow is performed according to the standard SOAP protocol using the [Web service invocation](https://help.loginom.ru/userguide/processors/integration/soap-request.html) node. In return the *Adapter performs the following tasks:*:
 
 - Transforms the SOAP request received from the Loginom workflow to the request format of the external web service
 - Sends the transformed request to the external web service
 - Receives the response of the external web service
 - Transforms the received response and returns it to the Loginom workflow in the SOAP format
 
-![Figure 1. Typical scheme of interaction of the system components using the Adapter](component_interaction_scheme.png)
+![Figure 1. Typical scheme of interaction of the system components using the Adapter](scheme-of-work_adapter.svg)
 
 ## System Requirements
 

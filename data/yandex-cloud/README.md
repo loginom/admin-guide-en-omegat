@@ -5,7 +5,7 @@
 
 Access to the analytical platform is provided by resources of the Yandex Compute Cloud service. The service enables usage of virtual machines in Yandex.Cloud infrastructure for operation on the Loginom platform. Depending on the complexity of computations, it is possible to define the required number of cores, storage capacity, size and amount of discs and accessibility zone of the virtual machine. As appropriate, these parameters can be changed without a system reinstallation.
 
-[Loginom Platform in Yandex.Cloud](https://cloud.yandex.ru/marketplace/products/f2esjn14f4ekcb53igdt)
+[Loginom Platform in Yandex.Cloud](https://cloud.yandex.ru/marketplace/products/loginom)
 
 ## Start Operation
 
@@ -25,8 +25,8 @@ If Loginom Studio start failed, it is required to use the [manual](https://help.
 
 There are additional shortcuts on the desktop in RDP session:
 
-1. `GuardantActivationWizard` shortcut is an application for activation of the software SP dongle for Loginom software, [manual](https://help.loginom.ru/adminguide/licenses/sp-activate.html) concerning the activation process is in the "Activation of SP dongles" file.
-   https://help.loginom.ru/adminguide/licenses/sp-activate.html
+1. Ярлык `GuardantActivationWizard` - приложение для активации программного SP-ключа ПО Loginom, [инструкция](https://help.loginom.ru/adminguide/licenses/sp-key-activate.html) по активации в файле "Активация SP-ключей"
+   https://help.loginom.ru/adminguide/licenses/sp-key-activate.html
 
 2. `Set admin password` shortcut runs script of the forced setting and upgrading of the user `admin` password. A new password can be required, for example, in the case of current password loss.
 

@@ -6,7 +6,7 @@ The [Loginom](https://loginom.ru) analytical platform can be operated in server 
 
 Server mode is available in Team, Standard and Enterprise editions.
 
-![Editions for the teamwork](./lg_group.svg)
+![Editions for the teamwork](./loginom-server-comparison.svg)
 
 | Component | Designation |
 |:----------|:-----------|
@@ -17,8 +17,8 @@ Server mode is available in Team, Standard and Enterprise editions.
 
 ## Personal Analytics
 
-Desktop components designated for stand-alone data processing using personal computers. Academic and Personal editions are available. They contain only one component - [Loginom Desktop](./desktop/README.md).
+Настольные компоненты, предназначенные для автономной обработки данных на персональном компьютере, доступны в редакциях Community и Personal. They contain only one component - [Loginom Desktop](./desktop/README.md).
 
-![Editions for Personal Work.](./lg_personal.svg)
+![Editions for Personal Work.](./loginom-desktop-comparison.svg)
 
 They must be installed and can be used as Windows applications. 32-bit and 64-bit versions are available.
