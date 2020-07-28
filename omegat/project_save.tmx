@@ -4352,8 +4352,8 @@ M: Done.</note>
       <tuv lang="RU">
         <seg>msiexec /i "LoginomPersonal_6.x.x_x64.msi" ключи_msi</seg>
       </tuv>
-      <tuv lang="EN" changeid="Марианна" changedate="20200629T103425Z" creationid="Марианна" creationdate="20200529T112419Z">
-        <seg>msiexec /i "LoginomPersonal_6.x.x_x64.msi" options_msi</seg>
+      <tuv lang="EN" changeid="mayorov" changedate="20200728T071739Z" creationid="Марианна" creationdate="20200529T112419Z">
+        <seg>msiexec /i "LoginomPersonal_6.x.x_x64.msi" msi_options</seg>
       </tuv>
     </tu>
     <tu>
