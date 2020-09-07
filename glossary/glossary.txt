@@ -379,3 +379,19 @@ P-значение	P-value
 Номер	#	Относится только к страницам Excel
 Номер	No	Заголовок в гриде
 Некорректный ответ от сервера	Bad server response
+Описание изменений	Release notes
+Повышение информативности	UI/UX improvement
+Оптимизация работы	Performance improvements
+Смещение	Bias 
+Заполнение пропусков	Imputing, imputation 
+Исправление ошибок в самой программе Loginom	Bug fixes
+Повышение удобства	Usability improvements
+Пакетное выполнение	Batch processing
+Версия Loginom	Loginom version 
+Редакция Loginom	Loginom edition
+Рабочее пространство	Working space
+От имени администратора	As an administrator
+Запуск службы	Service start
+Программы и компоненты	Programs & Features 
+Сервер сетевых ключей	Network dongles server 
+Экземпляр программы	Program instance 
