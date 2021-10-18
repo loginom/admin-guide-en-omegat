@@ -43,7 +43,7 @@ Web server (IIS) (8 installed of 43)
 - Web server (8 installed of 34)
    - Security (1 installed of 9)
         * Request filtering
-   - Common HTTP functions (3 installed of 6)
+   - Common HTTP Features (3 installed of 6)
         * Default document
         * Directory Browsing
         *Static content

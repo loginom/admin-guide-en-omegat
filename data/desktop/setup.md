@@ -28,7 +28,7 @@ All components are installed by default.
 ### Command Line
 
 ```cmd
-msiexec /i "LoginomPersonal_6.x.x_x64.msi" options_msi
+msiexec /i "LoginomPersonal_6.x.x_x64.msi" msi_options
 ```
 
 * `msi_options` — it is possible to find allowable values executing the following command in the command line: `msiexec /?`. The following commands can be especially useful:
