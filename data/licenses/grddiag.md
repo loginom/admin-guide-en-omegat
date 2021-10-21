@@ -8,7 +8,7 @@ The ulility can be also started from the applet of the "Guardant Drivers" contro
 
 ![](../images/guardant-diag-util.png)
 
-To retrieve a report, it is required to press the "Full Report" button; then HTML file with a detailed description of all dongles installed in the system and system configuration will be opened in the browser.
+To retrieve a report, it is required to press the "Full Report" button; then HTML file with a detailed description of all dongles installed in the system and system configuration will be opened in the browser. На рисунке ниже представлен фрагмент отчета:
 
 ![](../images/guardant-diag-report.png)
 

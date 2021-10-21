@@ -124,6 +124,23 @@ CREATE TABLE [dbo].[Logs](
 
 %/spoiler%
 
+%spoiler%Привязка полей журнала к полям таблицы. Пример раздела `<log>` web.config:%spoiler%
+
+```XML
+<!--Параметры логирования задаются в элементе log/>-->
+<log>
+	<fileSystem level="Off" maxArchiveFiles="30" encoding="utf-8" path="C:\Logs"/>
+	<eventLog level="Off" />
+	<!--Элемент database содержит настройки логирования в БД/>-->
+    <!--Атрибут connectionString содержит строку подключения к БД/>-->
+    <!--В примере используется драйвер OLEDB для SQLServer (должен быть установлен в системе)/>-->
+    <database connectionString="Provider=sqloledb; Server=192.168.0.1; Database=Integrator; User Id=sa; Password=Password123" level="All" table="Logs" dateColumn="Date" levelColumn="Level" machineNameColumn="MachineName" appDomainColumn="AppDomain" requestIdColumn="RequestId" packageNameColumn="PackageName" nodeNameColumn="NodeName" messageColumn="Message" exceptionColumn="Exception" requestColumn="Request" responseColumn="Response"/>
+	<internal level="Error" />
+</log>
+```
+
+%/spoiler%
+
 #### SQL Query
 
 An SQL query is specified in the `sqlCommand` attribute.
@@ -146,6 +163,26 @@ It is required to specify the following parameters in the query as set values:
 * **:response** - текст ответа веб-сервиса.
 
 > **Примечание**: применение атрибута `userNameColumn` и соответствующего ему параметра `:username`  заметно увеличивает время выполнения операции логирования. Рекомендуется не использовать их без необходимости.
+
+%spoiler%Запись полей журнала SQL запросом. Пример раздела `<log>` web.config:%spoiler%
+
+```XML
+<!--Параметры логирования задаются в элементе log/>-->
+<log>
+	<fileSystem level="Off" maxArchiveFiles="30" encoding="utf-8" path="C:\Logs"/>
+	<eventLog level="Off" />
+	<!--Элемент database содержит настройки логирования в БД/>-->
+    <!--Атрибут connectionString содержит строку подключения к БД/>-->
+    <!--В примере используется драйвер OLEDB для SQLServer (должен быть установлен в системе)/>-->
+    <!--Атрибут sqlCommand задает запрос на запись события журнала/>-->
+    <!--При таком способе логирования имеется возможность модификации записей журнала/>-->
+    <!--В примере содержимое поля :response будет обрезано до 1000 знаков/>-->
+    <database connectionString="Provider=sqloledb; Server=192.168.0.1; Database=Integrator; User Id=sa; Password=Password123" level="All" sqlCommand="insert into Logs (Date, Level, MachineName, AppDomain, RequestId, PackageName, NodeName, Message, Exception, Request, Response) values (:date, :level, :machinename, :appdomain, :requestid, :packagename, :nodename, :message, :exception, :request, SUBSTRING( :response, 0, 999))"/>
+    <internal level="Error" />
+</log>
+```
+
+%/spoiler%
 
 ### Logging events record
 

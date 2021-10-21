@@ -1,7 +1,6 @@
 # SUMMARY
 
 * [Home](./README.md)
-   * [Interaction of components](./platform/scheme.md)
 * [Loginom Server](./server/README.md)
    * [Installation](./server/setup.md)
       * [Microsoft IIS](./server/iis.md)

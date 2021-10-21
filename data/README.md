@@ -1,3 +1,7 @@
+---
+description: Руководство администратора Loginom - архитектура, установка и конфигурирование аналитической системы.
+---
+
 # Loginom — Administrator Manual
 
 The [Loginom](https://loginom.ru) analytical platform can be operated in server mode for teamwork, and as a desktop application for personal analytics.

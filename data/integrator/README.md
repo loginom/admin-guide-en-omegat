@@ -14,3 +14,10 @@ The Loginom Integrator usage allows for implementation of the solution architect
 | RAM | 2 GB | 4 GB |
 | HDD | 100 GB | 500 GB |
 | USB | 1.0 | 2.0 |
+
+## Interaction of Components
+
+![](../images/service.svg)
+
+* Внешний сервис подключается по протоколу http(s) к web-серверу (IIS), на котором развернуто web-приложение Loginom Integrator;
+* Integrator enables request processing and creation of connection to TCP [server port](../server/setup.md#parametry-loginom-server) to the Loginom server host.
