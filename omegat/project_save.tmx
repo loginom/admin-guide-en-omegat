@@ -1390,6 +1390,14 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;x1/&gt;All&lt;x2/&gt; - все события;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T100629Z" creationid="Марианна" creationdate="20211026T100629Z">
+        <seg>&lt;x1/&gt;All&lt;x2/&gt; - all events;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;x1/&gt;All&lt;x2/&gt; - трассировка;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200605T204725Z" creationid="Марианна" creationdate="20200605T204725Z">
@@ -1428,6 +1436,14 @@ M: Done</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200227T160055Z" creationid="Марианна" creationdate="20200227T160055Z">
         <seg>&lt;x1/&gt;ContentType for transfer in the header&lt;x2/&gt; — the value of this parameter is transferred in the &lt;x3/&gt;Content-Type&lt;x4/&gt; header of the message package to the external service.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;Debug&lt;x2/&gt; - отладка;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T100648Z" creationid="Марианна" creationdate="20211026T100648Z">
+        <seg>&lt;x1/&gt;Debug&lt;x2/&gt; - debug;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1761,6 +1777,14 @@ M: Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200610T092139Z" creationid="Марианна" creationdate="20200610T092139Z">
         <seg>&lt;x1/&gt;Studio&lt;x2/&gt; enables data exchange with Loginom Server using &lt;x3/&gt;websocket&lt;x4/&gt; protocol.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;Trace&lt;x2/&gt; - трассировка;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T100636Z" creationid="Марианна" creationdate="20211026T100636Z">
+        <seg>&lt;x1/&gt;Trace&lt;x2/&gt; - trace;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3001,6 +3025,14 @@ Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200311T140940Z" creationid="Марианна" creationdate="20200226T103403Z">
         <seg>&lt;x1/&gt;Note&lt;x2/&gt;: when the client certificate is in the store, DER-encoded &lt;x5/&gt;X.509&lt;x6/&gt; export from the store to &lt;x3/&gt;.CER&lt;x4/&gt; file and specification of path to such file in the &lt;x7/&gt;Certificate path&lt;x8/&gt; parameter are obligatory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: запись в лог текстов запросов и ответов сервиса осуществляется при уровне логирования не ниже &lt;x3/&gt;Trace&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T101134Z" creationid="Марианна" creationdate="20211026T101134Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Request texts and service responses are written in the log providing the &lt;x3/&gt;Trace&lt;x4/&gt; logging level or higher.</seg>
       </tuv>
     </tu>
     <tu>
