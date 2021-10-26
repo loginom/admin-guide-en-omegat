@@ -815,6 +815,18 @@ dism /online /enable-feature /FeatureName:IIS-ApplicationDevelopment /FeatureNam
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;database connectionString="Provider=sqloledb; Server=192.168.0.1; Database=Integrator; User Id=sa; Password=Password123" level="All" table="Logs" dateColumn="Date" levelColumn="Level" machineNameColumn="MachineName" appDomainColumn="AppDomain" requestIdColumn="RequestId" packageNameColumn="PackageName" nodeNameColumn="NodeName" messageColumn="Message" exceptionColumn="Exception" requestColumn="Request" responseColumn="Response"/&gt;
+	&lt;internal level="Error" /&gt;
+&lt;/log&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102455Z" creationid="Марианна" creationdate="20211026T102455Z">
+        <seg>&lt;database connectionString="Provider=sqloledb; Server=192.168.0.1; Database=Integrator; User Id=sa; Password=Password123" level="All" table="Logs" dateColumn="Date" levelColumn="Level" machineNameColumn="MachineName" appDomainColumn="AppDomain" requestIdColumn="RequestId" packageNameColumn="PackageName" nodeNameColumn="NodeName" messageColumn="Message" exceptionColumn="Exception" requestColumn="Request" responseColumn="Response"/&gt;
+	&lt;internal level="Error" /&gt;
+&lt;/log&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;ded:Cheques&gt;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200519T142749Z" creationid="Марианна" creationdate="20200519T142749Z">
@@ -1372,6 +1384,14 @@ M: Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200605T211941Z" creationid="Марианна" creationdate="20200605T211941Z">
         <seg>&lt;x1/&gt;:message&lt;x2/&gt; - event text;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;:packagename&lt;x2/&gt; - имя исполняемого пакета;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102542Z" creationid="Марианна" creationdate="20211026T102542Z">
+        <seg>&lt;x1/&gt;:packagename&lt;x2/&gt; - name of the executed package;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4354,6 +4374,96 @@ M: Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200421T113623Z" creationid="Марианна" creationdate="20200227T155820Z">
         <seg>The XSD schema can contain references to the associated XSD schemas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[AppDomain] [nvarchar](200),</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102419Z" creationid="Марианна" creationdate="20211026T102419Z">
+        <seg>[AppDomain] [nvarchar](200),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[Date] [datetime2](4),</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102409Z" creationid="Марианна" creationdate="20211026T102409Z">
+        <seg>[Date] [datetime2](4),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[Exception] [nvarchar](max) NULL,</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102434Z" creationid="Марианна" creationdate="20211026T102434Z">
+        <seg>[Exception] [nvarchar](max) NULL,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[Level] [nvarchar](10),</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102412Z" creationid="Марианна" creationdate="20211026T102412Z">
+        <seg>[Level] [nvarchar](10),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[MachineName] [nvarchar](100),</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102415Z" creationid="Марианна" creationdate="20211026T102415Z">
+        <seg>[MachineName] [nvarchar](100),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[Message] [nvarchar](max) NULL,</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102431Z" creationid="Марианна" creationdate="20211026T102431Z">
+        <seg>[Message] [nvarchar](max) NULL,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[NodeName] [nvarchar](100) NULL,</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102428Z" creationid="Марианна" creationdate="20211026T102428Z">
+        <seg>[NodeName] [nvarchar](100) NULL,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[PackageName] [nvarchar](100) NULL,</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102425Z" creationid="Марианна" creationdate="20211026T102425Z">
+        <seg>[PackageName] [nvarchar](100) NULL,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[RequestId] [nvarchar](32),</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102422Z" creationid="Марианна" creationdate="20211026T102422Z">
+        <seg>[RequestId] [nvarchar](32),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[Request] [nvarchar](max) NULL,</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102436Z" creationid="Марианна" creationdate="20211026T102436Z">
+        <seg>[Request] [nvarchar](max) NULL,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>[Response] [nvarchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102439Z" creationid="Марианна" creationdate="20211026T102439Z">
+        <seg>[Response] [nvarchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]</seg>
       </tuv>
     </tu>
     <tu>
