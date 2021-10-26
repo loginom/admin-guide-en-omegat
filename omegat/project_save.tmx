@@ -3847,6 +3847,14 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>LoginomCommunity_6.x.x.msi — инсталлятор для редакции Community</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T100538Z" creationid="Марианна" creationdate="20211026T100538Z">
+        <seg>LoginomCommunity_6.x.x.msi — installer for the Community edition</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>LoginomEnterprise_6.x.x.msi – the installer for Enterprise editing
 М: Done
 
