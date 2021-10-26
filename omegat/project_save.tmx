@@ -3743,6 +3743,14 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>Loginom Personal, Loginom Community (64 бита)</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T100449Z" creationid="Марианна" creationdate="20211026T100449Z">
+        <seg>Loginom Personal, Loginom Community (64-bit)</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: The Loginom Server
 M: Done</note>
       <tuv lang="RU">
