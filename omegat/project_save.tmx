@@ -2110,6 +2110,14 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;x1/&gt;nodeNameColumn&lt;x2/&gt; - имя поля для записи имени исполняемого узла;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T101251Z" creationid="Марианна" creationdate="20211026T101251Z">
+        <seg>&lt;x1/&gt;nodeNameColumn&lt;x2/&gt; - field name for the executed node name record;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;x1/&gt;packageNameColumn&lt;x2/&gt; - имя поля для записи имени исполняемого пакета;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20211026T101221Z" creationid="Марианна" creationdate="20211026T101221Z">
@@ -2144,6 +2152,14 @@ M: Done</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;x1/&gt;requestColumn&lt;x2/&gt; - имя поля для записи текста запроса к веб-сервису;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T101426Z" creationid="Марианна" creationdate="20211026T101426Z">
+        <seg>&lt;x1/&gt;requestColumn&lt;x2/&gt; - field name for the text record of the request to the web service;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;x1/&gt;requestIdColumn&lt;x2/&gt; - имя поля для записи уникального идентификатора запроса;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200605T211203Z" creationid="Марианна" creationdate="20200605T211203Z">
@@ -2158,6 +2174,14 @@ M: Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200625T124415Z" creationid="Марианна" creationdate="20200605T203134Z">
         <seg>&lt;x1/&gt;reserved&lt;x2/&gt; - the attribute with the "true" value marks the server as the standby unit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;responseColumn&lt;x2/&gt; - имя поля для записи текста ответа веб-сервиса.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T101530Z" creationid="Марианна" creationdate="20211026T101530Z">
+        <seg>&lt;x1/&gt;responseColumn&lt;x2/&gt; - field name for the text record of the the web service response.</seg>
       </tuv>
     </tu>
     <tu>
