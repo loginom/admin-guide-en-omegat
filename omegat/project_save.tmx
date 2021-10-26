@@ -7215,6 +7215,14 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Настольная версия платформы предназначена для установки на локальном компьютере, когда подразумевается работа одного пользователя.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T093327Z" creationid="Марианна" creationdate="20211026T093327Z">
+        <seg>The desktop version of the platform is designated for installation on the local computer when only one user operation is anticipated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Настольные компоненты, предназначенные для автономной обработки данных на персональном компьютере, доступны в редакциях Academic и Personal.</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200605T214847Z" creationid="Марианна" creationdate="20200605T214847Z">
