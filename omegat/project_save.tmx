@@ -338,8 +338,8 @@ A: "while the command" is placed in a different part of the segment in Github, a
         <seg>/* может потребоваться корректировка размерности полей nvarchar */
 CREATE TABLE [dbo].[Logs](</seg>
       </tuv>
-      <tuv lang="EN" changeid="Марианна" changedate="20211026T101913Z" creationid="Марианна" creationdate="20211026T101913Z">
-        <seg>/* fields dimension correction can be required nvarchar */
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102406Z" creationid="Марианна" creationdate="20211026T101913Z">
+        <seg>/* fields dimension correction can be required: nvarchar */
 CREATE TABLE [dbo].[Logs](</seg>
       </tuv>
     </tu>
