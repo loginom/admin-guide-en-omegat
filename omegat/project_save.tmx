@@ -2109,6 +2109,14 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;packageNameColumn&lt;x2/&gt; - имя поля для записи имени исполняемого пакета;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T101221Z" creationid="Марианна" creationdate="20211026T101221Z">
+        <seg>&lt;x1/&gt;packageNameColumn&lt;x2/&gt; - field name for the executed package name record;</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: password - account password with service login rights.
 M: Done</note>
       <tuv lang="RU">
