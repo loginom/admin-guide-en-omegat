@@ -6840,6 +6840,14 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>Компонент Desktop входит в редакции платформы Loginom Personal и Loginom Community.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T093722Z" creationid="Марианна" creationdate="20211026T093722Z">
+        <seg>The Desktop component is included in the Loginom Personal and Loginom Community platform editions.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: The desktop component is included in the Loginom Personal platform version.
 M: Done.</note>
       <tuv lang="RU">
