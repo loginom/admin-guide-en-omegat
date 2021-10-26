@@ -1388,6 +1388,14 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;x1/&gt;:nodename&lt;x2/&gt; - имя исполняемого узла;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102552Z" creationid="Марианна" creationdate="20211026T102552Z">
+        <seg>&lt;x1/&gt;:nodename&lt;x2/&gt; - name of the executed node;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;x1/&gt;:packagename&lt;x2/&gt; - имя исполняемого пакета;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20211026T102542Z" creationid="Марианна" creationdate="20211026T102542Z">
