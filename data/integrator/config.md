@@ -41,9 +41,9 @@ It is possible to enable the following modes:
 
 It is possible to assign the minimum level of detail to each mode:
 
-* **All** - все события;
-* **Trace** - трассировка;
-* **Debug** - отладка;
+* **All** - all events;
+* **Trace** - trace;
+* **Debug** - debug;
 * **Info** - info;
 * **Warn** - warnings;
 * **Error**- errors;
@@ -52,7 +52,7 @@ It is possible to assign the minimum level of detail to each mode:
 
 In the case of default setup, writing to file with the Info detailing level is enabled. Logs are recorded in the `%ALLUSERSPROFILE%\BaseGroup\Loginom 6\Integrator\Logs\` directory.
 
-> **Примечание**: запись в лог текстов запросов и ответов сервиса осуществляется при уровне логирования не ниже `Trace`.
+> **Note**: Request texts and service responses are written in the log providing the `Trace` logging level or higher.
 
 ### Write to File
 
@@ -94,19 +94,19 @@ It is required to set the following attributes for binding:
 * **userNameColumn** - field name for the user record on whose behalf the Integrator process was initiated;
 * **appDomainColumn** - field name for the application domain identifier record;
 * **requestIdColumn** - field name for the unique identifier request record;
-* **packageNameColumn** - имя поля для записи имени исполняемого пакета;
-* **nodeNameColumn** - имя поля для записи имени исполняемого узла;
+* **packageNameColumn** - field name for the executed package name record;
+* **nodeNameColumn** - field name for the executed node name record;
 * **messageColumn** - field name for the event text record;
 * **exceptionColumn** - field name for the error text record;
-* **requestColumn** - имя поля для записи текста запроса к веб-сервису;
-* **responseColumn** - имя поля для записи текста ответа веб-сервиса.
+* **requestColumn** - field name for the text record of the request to the web service;
+* **responseColumn** - field name for the text record of the the web service response.
 
 Attributes with field names can be absent or contain blank values. In this regard, corresponding data must not be logged.
 
-%spoiler%Пример скрипта создания таблицы хранения логов в MS SQL:%spoiler%
+%spoiler%Example of the script creation of the table to store logs in MS SQL:%spoiler%
 
 ```SQL
-/* может потребоваться корректировка размерности полей nvarchar */
+/* fields dimension correction can be required: nvarchar */
 CREATE TABLE [dbo].[Logs](
     [Date] [datetime2](4),
     [Level] [nvarchar](10),
@@ -155,14 +155,14 @@ It is required to specify the following parameters in the query as set values:
 * **:username** - name of the user on whose behalf the Integrator process was initiated;
 * **:appdomain** - application domain identifier;
 * **:requestid** - unique request identifier;
-* **:packagename** - имя исполняемого пакета;
-* **:nodename** - имя исполняемого узла;
+* **:packagename** - name of the executed package;
+* **:nodename** - name of the executed node;
 * **:message** - event text;
 * **:exception** - error text;
-* **:request** - текст запроса к веб-сервису;
-* **:response** - текст ответа веб-сервиса.
+* **:request** - text of the request to the web service;
+* **:response** - text of the web service response.
 
-> **Примечание**: применение атрибута `userNameColumn` и соответствующего ему параметра `:username`  заметно увеличивает время выполнения операции логирования. Рекомендуется не использовать их без необходимости.
+> **Note**: Use of `userNameColumn` attribute and its corresponding `:username` parameter significantly increases the logging operation execution time. It is recommended not to use them unless necessary.
 
 %spoiler%Запись полей журнала SQL запросом. Пример раздела `<log>` web.config:%spoiler%
 

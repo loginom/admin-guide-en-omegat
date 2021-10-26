@@ -4,7 +4,7 @@ It is a platform component running as an application for Internet Information Se
 
 The Loginom Integrator usage allows for implementation of the solution architecture providing fault tolerance, load balance and horizontal scaling.
 
-## System Requirements
+## nSystem Requirements
 
 | Component | Minimum | Recommended |
 |:--------- |:-------------|:------------- |

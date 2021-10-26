@@ -6,7 +6,7 @@ The [Loginom Studio](../studio/README.md) provides for server management, config
 
 The Loginom Server is designated for deployment in the internal network when the work of more than one user from different working places is anticipated.
 
-## System Requirements
+## nSystem Requirements
 
 ### Server x64
 
