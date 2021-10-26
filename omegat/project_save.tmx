@@ -171,6 +171,14 @@ A: "while the command" is placed in a different part of the segment in Github, a
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>%spoiler%Пример скрипта создания таблицы хранения логов в MS SQL:%spoiler%</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T101716Z" creationid="Марианна" creationdate="20211026T101716Z">
+        <seg>%spoiler%Example of the script creation of the table to store logs in MS SQL:%spoiler%</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>Vasiliy M: Example of configuring Windows Firewall мне кажется
 М: Немного изменю порядок слов и число. Поменяла. Спасибо.
 И в исходнике, видимо, ошибка - Firewall с двумя ll</note>
@@ -323,6 +331,16 @@ A: "while the command" is placed in a different part of the segment in Github, a
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200502T195436Z" creationid="Марианна" creationdate="20200502T195436Z">
         <seg>.Net Framework</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>/* может потребоваться корректировка размерности полей nvarchar */
+CREATE TABLE [dbo].[Logs](</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T101913Z" creationid="Марианна" creationdate="20211026T101913Z">
+        <seg>/* fields dimension correction can be required nvarchar */
+CREATE TABLE [dbo].[Logs](</seg>
       </tuv>
     </tu>
     <tu>
