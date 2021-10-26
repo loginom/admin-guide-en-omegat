@@ -3735,6 +3735,14 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>Loginom Personal, Loginom Community (32 бита)</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T100422Z" creationid="Марианна" creationdate="20211026T100422Z">
+        <seg>Loginom Personal, Loginom Community (32-bit)</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: The Loginom Server
 M: Done</note>
       <tuv lang="RU">
@@ -9117,8 +9125,8 @@ Vasiliy M.: просто Yandex.Cloud, наверное
       <tuv lang="RU">
         <seg>Системные требования</seg>
       </tuv>
-      <tuv lang="EN" changeid="Марианна" changedate="20200502T194442Z" creationid="Марианна" creationdate="20200502T194442Z">
-        <seg>System Requirements</seg>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T100157Z" creationid="Марианна" creationdate="20200502T194442Z">
+        <seg>nSystem Requirements</seg>
       </tuv>
     </tu>
     <tu>
