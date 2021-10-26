@@ -3168,6 +3168,14 @@ Ok, thanks. Corrected in 2 segments. </note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;Примечание&lt;x2/&gt;: применение атрибута &lt;x3/&gt;userNameColumn&lt;x4/&gt; и соответствующего ему параметра &lt;x5/&gt;:username&lt;x6/&gt;  заметно увеличивает время выполнения операции логирования.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T110021Z" creationid="Марианна" creationdate="20211026T110021Z">
+        <seg>&lt;x1/&gt;Note&lt;x2/&gt;: Use of &lt;x3/&gt;userNameColumn&lt;x4/&gt; attribute and its corresponding &lt;x5/&gt;:username&lt;x6/&gt; parameter significantly increases the logging operation execution time.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>Andrew:
 &lt;x1/&gt;Note&lt;x2/&gt;: the path to XSD schema is specified in the following parameter: &lt;x3/&gt;The schema to which the service description will refer&lt;x4/&gt;.&lt;segment 0097 ¶&gt;
 
