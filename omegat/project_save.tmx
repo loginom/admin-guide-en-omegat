@@ -815,6 +815,14 @@ dism /online /enable-feature /FeatureName:IIS-ApplicationDevelopment /FeatureNam
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;database connectionString="Provider=sqloledb; Server=192.168.0.1; Database=Integrator; User Id=sa; Password=Password123" level="All" sqlCommand="insert into Logs (Date, Level, MachineName, AppDomain, RequestId, PackageName, NodeName, Message, Exception, Request, Response) values (:date, :level, :machinename, :appdomain, :requestid, :packagename, :nodename, :message, :exception, :request, SUBSTRING( :response, 0, 999))"/&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102604Z" creationid="Марианна" creationdate="20211026T102604Z">
+        <seg>&lt;database connectionString="Provider=sqloledb; Server=192.168.0.1; Database=Integrator; User Id=sa; Password=Password123" level="All" sqlCommand="insert into Logs (Date, Level, MachineName, AppDomain, RequestId, PackageName, NodeName, Message, Exception, Request, Response) values (:date, :level, :machinename, :appdomain, :requestid, :packagename, :nodename, :message, :exception, :request, SUBSTRING( :response, 0, 999))"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;database connectionString="Provider=sqloledb; Server=192.168.0.1; Database=Integrator; User Id=sa; Password=Password123" level="All" table="Logs" dateColumn="Date" levelColumn="Level" machineNameColumn="MachineName" appDomainColumn="AppDomain" requestIdColumn="RequestId" packageNameColumn="PackageName" nodeNameColumn="NodeName" messageColumn="Message" exceptionColumn="Exception" requestColumn="Request" responseColumn="Response"/&gt;
 	&lt;internal level="Error" /&gt;
 &lt;/log&gt;</seg>
@@ -847,6 +855,16 @@ dism /online /enable-feature /FeatureName:IIS-ApplicationDevelopment /FeatureNam
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200519T140923Z" creationid="Марианна" creationdate="20200519T140923Z">
         <seg>&lt;httpProtocol&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;internal level="Error" /&gt;
+&lt;/log&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102608Z" creationid="Марианна" creationdate="20211026T102608Z">
+        <seg>&lt;internal level="Error" /&gt;
+&lt;/log&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1404,10 +1422,26 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;x1/&gt;:request&lt;x2/&gt; - текст запроса к веб-сервису;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102655Z" creationid="Марианна" creationdate="20211026T102655Z">
+        <seg>&lt;x1/&gt;:request&lt;x2/&gt; - text of the request to the web service;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;x1/&gt;:requestid&lt;x2/&gt; - уникальный идентификатор запроса;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200605T211931Z" creationid="Марианна" creationdate="20200605T211931Z">
         <seg>&lt;x1/&gt;:requestid&lt;x2/&gt; - unique request identifier;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;:response&lt;x2/&gt; - текст ответа веб-сервиса.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102713Z" creationid="Марианна" creationdate="20211026T102713Z">
+        <seg>&lt;x1/&gt;:response&lt;x2/&gt; - text of the web service response.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9226,6 +9260,14 @@ M: Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200627T111704Z" creationid="Марианна" creationdate="20200610T204207Z">
         <seg>Google Сhrome is the recommended browser.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Рекомендуется не использовать их без необходимости.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211026T102752Z" creationid="Марианна" creationdate="20211026T102752Z">
+        <seg>It is recommended not to use them unless necessary.</seg>
       </tuv>
     </tu>
     <tu>
