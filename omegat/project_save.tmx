@@ -7474,6 +7474,14 @@ Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>На рисунке ниже представлен фрагмент отчета:</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T102216Z" creationid="Марианна" creationdate="20211027T102216Z">
+        <seg>The report abstract is shown in the figure below:</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: At the next stage, the request received in the result of the previous transformations in case of the REST request formation is placed into the HTTP/HTTPS package body (Entity Body) sent to the external service. In case of the SOAP request, it is placed into the Body node of the SOAP package.
 M: Done.</note>
       <tuv lang="RU">
