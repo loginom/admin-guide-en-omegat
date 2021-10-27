@@ -549,6 +549,22 @@ dism /online /enable-feature /FeatureName:IIS-ApplicationDevelopment /FeatureNam
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;!--Параметры логирования задаются в элементе log/&gt;--&gt;
+&lt;log&gt;
+	&lt;fileSystem level="Off" maxArchiveFiles="30" encoding="utf-8" path="C:\Logs"/&gt;
+	&lt;eventLog level="Off" /&gt;
+	&lt;!--Элемент database содержит настройки логирования в БД/&gt;--&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T100801Z" creationid="Марианна" creationdate="20211027T100801Z">
+        <seg>&lt;!--The logging parameters are set in the following item: log/&gt;--&gt;
+&lt;log&gt;
+	&lt;fileSystem level="Off" maxArchiveFiles="30" encoding="utf-8" path="C:\Logs"/&gt;
+	&lt;eventLog level="Off" /&gt;
+	&lt;!--Database item contains the logging settings in the DB/&gt;--&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;/conditions&gt;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200519T141500Z" creationid="Марианна" creationdate="20200519T141500Z">
