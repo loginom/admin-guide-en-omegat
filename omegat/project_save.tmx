@@ -4418,6 +4418,14 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>Studio обменивается данными с Loginom Server по протоколу &lt;x1/&gt;websocket&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T111132Z" creationid="Марианна" creationdate="20211027T111132Z">
+        <seg>Studio enables data exchange with Loginom Server using &lt;x1/&gt;websocket&lt;x2/&gt; protocol.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: Studio is the main working space for analysts and users implementing user interface of the platform operation.
 M: Done.</note>
       <tuv lang="RU">
