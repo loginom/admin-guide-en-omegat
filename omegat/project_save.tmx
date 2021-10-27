@@ -8834,6 +8834,14 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>При недоступности в момент активации SP-ключа сети интернет (&lt;x1/&gt;online-режим&lt;x2/&gt;) для компьютера конечного пользователя, существует &lt;x3/&gt;возможность активации в offline-режиме&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T102453Z" creationid="Марианна" creationdate="20211027T102453Z">
+        <seg>In the case of network unavailability (&lt;x1/&gt;online-mode&lt;x2/&gt;) for the end user computer at the moment of SP dongle activation, &lt;x3/&gt;activation is possible in offline mode&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A:
 While updating the store certificate, it is required to export the new certificate from the store once again, and to update the path in the Certificate path parameter.
 
