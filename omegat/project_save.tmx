@@ -7698,6 +7698,14 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Настольные компоненты, предназначенные для автономной обработки данных на персональном компьютере, доступны в редакциях Community и Personal.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T110445Z" creationid="Марианна" creationdate="20211027T110445Z">
+        <seg>Desktop components designated for stand-alone data processing using personal computers are available in Community and Personal editions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Настройка IIS</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200502T210038Z" creationid="Марианна" creationdate="20200502T204111Z">
