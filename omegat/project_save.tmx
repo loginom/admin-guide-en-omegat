@@ -7319,6 +7319,14 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Компьютер, где будет выполняться активация, в процессе инициализации ключа должен иметь доступ к серверу активации по адресу &lt;x1/&gt;https://sp.guardant.ru&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T105902Z" creationid="Марианна" creationdate="20211027T105902Z">
+        <seg>It is required to provide access to the activation server for the computer used for activation at the following address: &lt;x1/&gt;https://sp.guardant.ru&lt;x2/&gt; in the process of the dongle initialization.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Компьютер, где будет выполняться активация, должен иметь доступ к серверу активации по адресу &lt;x1/&gt;https://sp.guardant.ru&lt;x2/&gt; в процессе инициализации ключа.</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200608T103616Z" creationid="Марианна" creationdate="20200608T103616Z">
@@ -10105,6 +10113,14 @@ M: Done </note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200608T102916Z" creationid="Марианна" creationdate="20200608T102916Z">
         <seg>Installed Guardant driver, version 6.0 or higher.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Утилита GuardantActivationWizard.exe, поставляющаяся в комплекте с SP-ключом (входит в состав дистрибутива Loginom).</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T105812Z" creationid="Марианна" creationdate="20211027T105812Z">
+        <seg>GuardantActivationWizard.exe utility supplied with SP dongle (it is included in the distribution kit).</seg>
       </tuv>
     </tu>
     <tu>
