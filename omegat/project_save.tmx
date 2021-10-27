@@ -3734,6 +3734,14 @@ Host: stend-057</seg>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>IIS 8.0 и выше, .NET 4.5</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T101636Z" creationid="Марианна" creationdate="20211027T101636Z">
+        <seg>IIS 8.0 and higher, .NET 4.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>IIS 8.0 и выше, DotNet 4.5</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200604T221410Z" creationid="Марианна" creationdate="20200604T221410Z">
@@ -5414,6 +5422,14 @@ M: Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200610T102907Z" creationid="Марианна" creationdate="20200610T102907Z">
         <seg>The external service is connected using http protocol to the web server (IIS) on which &lt;x1/&gt;Loginom Integrator&lt;x2/&gt; web application is deployed;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Внешний сервис подключается по протоколу http(s) к web-серверу (IIS), на котором развернуто web-приложение Loginom Integrator;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T101957Z" creationid="Марианна" creationdate="20211027T101957Z">
+        <seg>The external service is connected using http(s) protocol to the web server (IIS) on which Loginom Integrator web application is deployed;</seg>
       </tuv>
     </tu>
     <tu>
