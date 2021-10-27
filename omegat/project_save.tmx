@@ -549,6 +549,14 @@ dism /online /enable-feature /FeatureName:IIS-ApplicationDevelopment /FeatureNam
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;!--Атрибут connectionString содержит строку подключения к БД/&gt;--&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T100929Z" creationid="Марианна" creationdate="20211027T100929Z">
+        <seg>&lt;!--ConnectionString attribute contains the string of connection to the DB/&gt;--&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;!--Параметры логирования задаются в элементе log/&gt;--&gt;
 &lt;log&gt;
 	&lt;fileSystem level="Off" maxArchiveFiles="30" encoding="utf-8" path="C:\Logs"/&gt;
