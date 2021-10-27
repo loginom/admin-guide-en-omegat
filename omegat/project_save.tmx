@@ -8645,6 +8645,14 @@ M: Done. </note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Пользователю назначены &lt;x3/&gt;роли&lt;x4/&gt; "Проектирование сценариев" и "Просмотр отчетов", а также права на &lt;x5/&gt;публикацию пакетов&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T111046Z" creationid="Марианна" creationdate="20211027T111046Z">
+        <seg>The following &lt;x3/&gt;roles&lt;x4/&gt; are selected for a user: "Workflows design" and "View reports" and also rights to &lt;x5/&gt;publish packages&lt;x6/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Поместить содержимое каталога Integrator в требуемое расположение</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200604T231258Z" creationid="Марианна" creationdate="20200604T231258Z">
