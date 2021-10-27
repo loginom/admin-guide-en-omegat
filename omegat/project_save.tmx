@@ -6453,6 +6453,14 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>Если установка Loginom выполнена с настройками по умолчанию, то утилиту можно найти в меню Windows "Пуск", пункт Loginom 6, а также в папке &lt;x3/&gt;C:\Program Files\BaseGroup\Guardant&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T104453Z" creationid="Марианна" creationdate="20211027T104453Z">
+        <seg>If Loginom has been installed with the default settings, the utility can be found in the "Start" menu Windows, Loginom 6 and in &lt;x3/&gt;C:\Program Files\BaseGroup\Guardant&lt;x4/&gt; folder).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>Жесткий диск</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200502T194932Z" creationid="Марианна" creationdate="20200502T194932Z">
