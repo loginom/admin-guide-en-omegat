@@ -161,6 +161,14 @@ A: "while the command" is placed in a different part of the segment in Github, a
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>%spoiler%Запись полей журнала SQL запросом.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T101156Z" creationid="Марианна" creationdate="20211027T101156Z">
+        <seg>%spoiler%Write the log fields by the SQL query.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>Vasiliy M.: Loginom_options in the form of KEY=Value
 М: Поменяла</note>
       <tuv lang="RU">
@@ -553,6 +561,14 @@ dism /online /enable-feature /FeatureName:IIS-ApplicationDevelopment /FeatureNam
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20211027T100929Z" creationid="Марианна" creationdate="20211027T100929Z">
         <seg>&lt;!--ConnectionString attribute contains the string of connection to the DB/&gt;--&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;!--В примере используется драйвер OLEDB для SQLServer (должен быть установлен в системе)/&gt;--&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T101011Z" creationid="Марианна" creationdate="20211027T101011Z">
+        <seg>&lt;!--OLEDB driver for SQLServer is used in the example (it must be installed in the system)/&gt;--&gt;</seg>
       </tuv>
     </tu>
     <tu>
