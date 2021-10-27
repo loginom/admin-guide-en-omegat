@@ -11,7 +11,7 @@ The *Adapter* is an intermediate web service between the workflow executed in Lo
 
 ![Figure 1. Typical scheme of interaction of the system components using the Adapter](scheme-of-work_adapter.svg)
 
-## nSystem Requirements
+## System Requirements
 
 ### Hardware
 

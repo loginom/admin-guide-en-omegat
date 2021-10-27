@@ -6,7 +6,7 @@ The 64-bit Loginom Desktop version can process significant data arrays limited o
 
 The Desktop component is included in the Loginom Personal and Loginom Community platform editions.
 
-## nSystem Requirements
+## System Requirements
 
 ### Loginom Personal, Loginom Community (32-bit)
 
