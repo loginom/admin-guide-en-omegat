@@ -1281,6 +1281,14 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;x1/&gt;2.&lt;x2/&gt; Установите опцию "Режим offline" (внизу слева) и нажмите кнопку "Далее":</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T104555Z" creationid="Марианна" creationdate="20211027T104555Z">
+        <seg>&lt;x1/&gt;2.&lt;x2/&gt; Install the "Offline mode" option (shown on the bottom left) and press "Next" button:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;x1/&gt;3.&lt;x2/&gt; Если активация прошла успешно, мастер выдает завершающее диалоговое окно:</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200608T104915Z" creationid="Марианна" creationdate="20200608T104915Z">
