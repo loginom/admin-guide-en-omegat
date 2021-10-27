@@ -10300,6 +10300,14 @@ Done</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>Чтобы активировать ключ Guardant SP, запустите мастер активации GuardantActivationWizard.exe и следуйте его указаниям (если установка Loginom выполнена с настройками по умолчанию, то утилиту можно найти в меню Windows "Пуск", пункт Loginom 6, а также в папке &lt;x1/&gt;C:\Program Files\BaseGroup\Guardant&lt;x2/&gt;):</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T110103Z" creationid="Марианна" creationdate="20211027T110103Z">
+        <seg>To activate Guardant SP dongle, it is required to run GuardantActivationWizard.exe activation wizard and to follow its instructions (If Loginom has been installed with the default settings, the utility can be found in the "Start" menu Windows, Loginom 6 and in &lt;x1/&gt;C:\Program Files\BaseGroup\Guardant&lt;x2/&gt; folder):</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>To activate Guardant SP dongle, it is required to run GuardantActivationWizard.exe activation wizard and to follow the instructions:</note>
       <tuv lang="RU">
         <seg>Чтобы активировать ключ Guardant SP, запустите мастер активации GuardantActivationWizard.exe и следуйте его указаниям:</seg>
