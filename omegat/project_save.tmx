@@ -1444,6 +1444,14 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;7.&lt;x2/&gt; Нажмите кнопку "Далее":</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T105642Z" creationid="Марианна" creationdate="20211027T105642Z">
+        <seg>&lt;x1/&gt;7.&lt;x2/&gt; Press "Next":</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: The activation process is complete:
 M: Done.</note>
       <tuv lang="RU">
@@ -1451,6 +1459,14 @@ M: Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200627T102327Z" creationid="Марианна" creationdate="20200608T100507Z">
         <seg>&lt;x1/&gt;7.&lt;x2/&gt; The activation process is complete:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;8.&lt;x2/&gt; Процесс активации завершен:</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T105653Z" creationid="Марианна" creationdate="20211027T105653Z">
+        <seg>&lt;x1/&gt;8.&lt;x2/&gt; The activation process is complete:</seg>
       </tuv>
     </tu>
     <tu>
