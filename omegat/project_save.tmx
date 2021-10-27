@@ -457,6 +457,14 @@ CREATE TABLE [dbo].[Logs](</seg>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>200</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T110535Z" creationid="Марианна" creationdate="20211027T110535Z">
+        <seg>200</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>4 GB</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200529T105454Z" creationid="Марианна" creationdate="20200529T105454Z">
@@ -2117,6 +2125,14 @@ M: Done. But still I do not feel the diffrerence. We need to discuss it and chec
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;x1/&gt;admin&lt;x2/&gt; с паролем &lt;x3/&gt;admin&lt;x4/&gt; — для администрирования сервера Loginom.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T110706Z" creationid="Марианна" creationdate="20211027T110706Z">
+        <seg>&lt;x1/&gt;admin&lt;x2/&gt; with the &lt;x3/&gt;admin&lt;x4/&gt; password — for Loginom server administration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;x1/&gt;app/&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200519T153803Z" creationid="Марианна" creationdate="20200519T153803Z">
@@ -2421,6 +2437,14 @@ M: Done</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;x1/&gt;service&lt;x2/&gt; с паролем &lt;x3/&gt;service&lt;x4/&gt; — для подключения внешних приложений (Integrator и BatchLauncher).</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T110751Z" creationid="Марианна" creationdate="20211027T110751Z">
+        <seg>&lt;x1/&gt;service&lt;x2/&gt; with the &lt;x3/&gt;service&lt;x4/&gt;password — for connection of external applications (Integrator and BatchLauncher).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;x1/&gt;table&lt;x2/&gt; - имя таблицы;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200605T210540Z" creationid="Марианна" creationdate="20200605T210540Z">
@@ -2453,6 +2477,14 @@ M: Done</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200604T215409Z" creationid="Марианна" creationdate="20200520T092323Z">
         <seg>&lt;x1/&gt;user&lt;x2/&gt; with blank password — for work with Loginom workflows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;user&lt;x2/&gt; с пустым паролем — для работы со сценариями Loginom.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T110632Z" creationid="Марианна" creationdate="20211027T110632Z">
+        <seg>&lt;x1/&gt;user&lt;x2/&gt; with blank password — for work with Loginom workflows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10537,6 +10569,14 @@ M: Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200519T144424Z" creationid="Марианна" creationdate="20200519T144424Z">
         <seg>from 1 ТB (+ User Data)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>от 500 GB (+ User Data)</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T110549Z" creationid="Марианна" creationdate="20211027T110549Z">
+        <seg>from 500 GB (+ User Data)</seg>
       </tuv>
     </tu>
     <tu>
