@@ -2613,6 +2613,14 @@ M: Not done. The Russian source is different.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;Важно&lt;x2/&gt;: опцию "Режим offline" устанавливать не нужно</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T105347Z" creationid="Марианна" creationdate="20211027T105347Z">
+        <seg>&lt;x1/&gt;Important&lt;x2/&gt;: It is not required to install "Offline mode" option</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>Vasiliy M.: мне кажется, тут будет Dongle types, хотя могу и ошибаться
 М: Спасибо, изменила.</note>
       <tuv lang="RU">
@@ -7592,6 +7600,14 @@ M: Done.</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200604T213518Z" creationid="Марианна" creationdate="20200519T150737Z">
         <seg>Pressing the &lt;x1/&gt;"Reinstall"&lt;x2/&gt; button will open a new product &lt;x3/&gt;installation&lt;x4/&gt; dialog.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Нажмите кнопку "Указать файл лицензии" и, в открывшемся диалоге выбора файлов, укажите тип файла "Файлы, полученные с сервера активации (*.fromserver)", выберите нужный файл:</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T105631Z" creationid="Марианна" creationdate="20211027T105631Z">
+        <seg>Press "Specify the license file..." button and select the required file in the opened file selection dialog having specified the file type "Files received from the activation server (*.fromserver)":</seg>
       </tuv>
     </tu>
     <tu>
