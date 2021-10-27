@@ -1398,6 +1398,22 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;5.&lt;x2/&gt; Программа соединится с сервером активации и сгенерирует еще один файл, который нужно перенести на компьютер конечного пользователя для завершения активации:</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T105016Z" creationid="Марианна" creationdate="20211027T105016Z">
+        <seg>&lt;x1/&gt;5.&lt;x2/&gt; The program will connect with the activation server and generate one more file to be transferred to the end user computer to finish the activation process:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;6.&lt;x2/&gt; На компьютере конечного пользователя запустите Мастер активации (GuardantActivationWizard.exe)</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T105250Z" creationid="Марианна" creationdate="20211027T105250Z">
+        <seg>&lt;x1/&gt;6.&lt;x2/&gt; Run the Activation Wizard on the end user computer(GuardantActivationWizard.exe)</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: 6. Once received, the "number-question" is entered at the next stage.
 M: Done.</note>
       <tuv lang="RU">
