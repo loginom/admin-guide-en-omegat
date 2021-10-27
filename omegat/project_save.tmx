@@ -1289,6 +1289,14 @@ M: Done.</note>
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;x1/&gt;3.&lt;x2/&gt; Введите серийный номер программного ключа.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T104609Z" creationid="Марианна" creationdate="20211027T104609Z">
+        <seg>&lt;x1/&gt;3.&lt;x2/&gt; Enter the software dongle serial number.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;x1/&gt;3.&lt;x2/&gt; Если активация прошла успешно, мастер выдает завершающее диалоговое окно:</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200608T104915Z" creationid="Марианна" creationdate="20200608T104915Z">
