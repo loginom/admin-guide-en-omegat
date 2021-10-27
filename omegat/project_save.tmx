@@ -565,10 +565,26 @@ dism /online /enable-feature /FeatureName:IIS-ApplicationDevelopment /FeatureNam
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>&lt;!--Атрибут sqlCommand задает запрос на запись события журнала/&gt;--&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T101313Z" creationid="Марианна" creationdate="20211027T101313Z">
+        <seg>&lt;!--sqlCommand attribute sets the request to write the log events/&gt;--&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>&lt;!--В примере используется драйвер OLEDB для SQLServer (должен быть установлен в системе)/&gt;--&gt;</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20211027T101011Z" creationid="Марианна" creationdate="20211027T101011Z">
         <seg>&lt;!--OLEDB driver for SQLServer is used in the example (it must be installed in the system)/&gt;--&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;!--В примере содержимое поля :response будет обрезано до 1000 знаков/&gt;--&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T101538Z" creationid="Марианна" creationdate="20211027T101538Z">
+        <seg>&lt;!--The contents of :response field in the example will be cut up to 1000 signs/&gt;--&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -585,6 +601,14 @@ dism /online /enable-feature /FeatureName:IIS-ApplicationDevelopment /FeatureNam
 	&lt;fileSystem level="Off" maxArchiveFiles="30" encoding="utf-8" path="C:\Logs"/&gt;
 	&lt;eventLog level="Off" /&gt;
 	&lt;!--Database item contains the logging settings in the DB/&gt;--&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>&lt;!--При таком способе логирования имеется возможность модификации записей журнала/&gt;--&gt;</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T101347Z" creationid="Марианна" creationdate="20211027T101347Z">
+        <seg>&lt;!--Such logging method enables to modify the log records/&gt;--&gt;</seg>
       </tuv>
     </tu>
     <tu>
