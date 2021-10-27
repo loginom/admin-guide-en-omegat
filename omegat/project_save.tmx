@@ -1198,6 +1198,14 @@ M: Done</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>&lt;x1/&gt;1.&lt;x2/&gt; Запустите Мастер активации Guardant (GuardantActivationWizard.exe входит в состав дистрибутива Loginom.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T102704Z" creationid="Марианна" creationdate="20211027T102704Z">
+        <seg>&lt;x1/&gt;1.&lt;x2/&gt; Run Guardant Activation Wizard (GuardantActivationWizard.exe is included into the Loginom distribution kit.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: Run Guardant Activation Wizard (GuardantActivationWizard.exe) to install the "Offline mode" option by checking the box on the bottom left, then press the "Next" button:
 M: Done.</note>
       <tuv lang="RU">
@@ -10184,6 +10192,14 @@ Done</note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200629T113807Z" creationid="Марианна" creationdate="20200605T210447Z">
         <seg>Target fields for the event data record can be specified in two ways: it is possible to bind the log fields to the table fields or to write SQL query.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Чтобы активировать ключ Guardant SP в offline-режиме:</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T102552Z" creationid="Марианна" creationdate="20211027T102552Z">
+        <seg>To activate Guardant SP dongle in offline-mode, it is required to perfrorm the following actions:</seg>
       </tuv>
     </tu>
     <tu>
