@@ -172,6 +172,14 @@ A: "while the command" is placed in a different part of the segment in Github, a
     </tu>
     <tu>
       <tuv lang="RU">
+        <seg>%spoiler%Привязка полей журнала к полям таблицы.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T100007Z" creationid="Марианна" creationdate="20211027T100007Z">
+        <seg>%spoiler%Binding of the log fields to the table fields.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
         <seg>%spoiler%Пример скрипта создания таблицы хранения логов в MS SQL:%spoiler%</seg>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20211026T101716Z" creationid="Марианна" creationdate="20211026T101716Z">
@@ -8962,6 +8970,14 @@ M: Done. </note>
       </tuv>
       <tuv lang="EN" changeid="Марианна" changedate="20200309T123739Z" creationid="Марианна" creationdate="20200309T123739Z">
         <seg>The command example:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU">
+        <seg>Пример раздела &lt;x1/&gt;&lt;log&gt;&lt;x2/&gt; web.config:%spoiler%</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T100026Z" creationid="Марианна" creationdate="20211027T100026Z">
+        <seg>Example of &lt;x1/&gt;&lt;log&gt;&lt;x2/&gt; web.config:%spoiler% section</seg>
       </tuv>
     </tu>
     <tu>
