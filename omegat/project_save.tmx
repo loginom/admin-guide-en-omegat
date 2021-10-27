@@ -9087,6 +9087,14 @@ M: Done.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="RU">
+        <seg>При этом происходит проверка введенного серийного номера, а также перешифрование файла программного ключа с использованием контрольных значений комплектующих компьютера.</seg>
+      </tuv>
+      <tuv lang="EN" changeid="Марианна" changedate="20211027T110151Z" creationid="Марианна" creationdate="20211027T110151Z">
+        <seg>In this respect, the entered serial number is checked, and superencryption of the software dongle file is performed using control values of PC components.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>A: In this respect, among other issues, the entered serial number is checked, and superencryption of the software dongle file is performed using control values of PC components.
 M: Done.</note>
       <tuv lang="RU">
