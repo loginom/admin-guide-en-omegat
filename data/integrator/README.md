@@ -9,7 +9,7 @@ The Loginom Integrator usage allows for implementation of the solution architect
 | Component | Minimum | Recommended |
 |:--------- |:-------------|:------------- |
 | OS | Windows Server 2012 and higher | |
-| Software | IIS 8.0 и выше, .NET 4.5 | |
+| Software | IIS 8.0 and higher, .NET 4.5 | |
 | CPU | 2 core | 4 core |
 | RAM | 2 GB | 4 GB |
 | HDD | 100 GB | 500 GB |
@@ -19,5 +19,5 @@ The Loginom Integrator usage allows for implementation of the solution architect
 
 ![](../images/service.svg)
 
-* Внешний сервис подключается по протоколу http(s) к web-серверу (IIS), на котором развернуто web-приложение Loginom Integrator;
+* The external service is connected using http(s) protocol to the web server (IIS) on which Loginom Integrator web application is deployed;
 * Integrator enables request processing and creation of connection to TCP [server port](../server/setup.md#parametry-loginom-server) to the Loginom server host.

@@ -21,7 +21,7 @@ Server mode is available in Team, Standard and Enterprise editions.
 
 ## Personal Analytics
 
-Настольные компоненты, предназначенные для автономной обработки данных на персональном компьютере, доступны в редакциях Community и Personal. They contain only one component - [Loginom Desktop](./desktop/README.md).
+Desktop components designated for stand-alone data processing using personal computers are available in Community and Personal editions. They contain only one component - [Loginom Desktop](./desktop/README.md).
 
 ![Editions for Personal Work.](./loginom-desktop-comparison.svg)
 

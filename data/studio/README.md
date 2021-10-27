@@ -17,7 +17,7 @@ Parameters for connection to the Loginom Server are set in the [configuration fi
 
 ## Interaction of Components
 
-Studio обменивается данными с Loginom Server по протоколу [websocket](https://ru.wikipedia.org/wiki/WebSocket). Connection is provided using one of the following two methods - directly from Loginom server or using websocket proxy configured on the web server.
+Studio enables data exchange with Loginom Server using [websocket](https://ru.wikipedia.org/wiki/WebSocket) protocol. Connection is provided using one of the following two methods - directly from Loginom server or using websocket proxy configured on the web server.
 
 Websocket proxy enables access to Loginom Server via http(s) port of the web server that facilitates the firewall configuration.
 

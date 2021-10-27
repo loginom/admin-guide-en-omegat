@@ -15,7 +15,7 @@ The Loginom Server is designated for deployment in the internal network when the
 | OS | Windows Server 2012 and higher | |
 | CPU x64 | 4 core | 16 core (Users x 1.6 core + 1 core) |
 | RAM | 8 GB | 16 GB (Users x 2GB + 2GB) |
-| HDD | 200 GB | от 500 GB (+ User Data) |
+| HDD | 200 GB | from 500 GB (+ User Data) |
 | USB | 1.0 | 2.0 |
 
 > **Note:** system requirements can vary according to data volume and interaction with third-party applications.

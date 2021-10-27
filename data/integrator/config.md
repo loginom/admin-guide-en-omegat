@@ -124,16 +124,16 @@ CREATE TABLE [dbo].[Logs](
 
 %/spoiler%
 
-%spoiler%Привязка полей журнала к полям таблицы. Пример раздела `<log>` web.config:%spoiler%
+%spoiler%Binding of the log fields to the table fields. Example of `<log>` web.config:%spoiler% section
 
 ```XML
-<!--Параметры логирования задаются в элементе log/>-->
+<!--The logging parameters are set in the following item: log/>-->
 <log>
 	<fileSystem level="Off" maxArchiveFiles="30" encoding="utf-8" path="C:\Logs"/>
 	<eventLog level="Off" />
-	<!--Элемент database содержит настройки логирования в БД/>-->
-    <!--Атрибут connectionString содержит строку подключения к БД/>-->
-    <!--В примере используется драйвер OLEDB для SQLServer (должен быть установлен в системе)/>-->
+	<!--Database item contains the logging settings in the DB/>-->
+    <!--ConnectionString attribute contains the string of connection to the DB/>-->
+    <!--OLEDB driver for SQLServer is used in the example (it must be installed in the system)/>-->
     <database connectionString="Provider=sqloledb; Server=192.168.0.1; Database=Integrator; User Id=sa; Password=Password123" level="All" table="Logs" dateColumn="Date" levelColumn="Level" machineNameColumn="MachineName" appDomainColumn="AppDomain" requestIdColumn="RequestId" packageNameColumn="PackageName" nodeNameColumn="NodeName" messageColumn="Message" exceptionColumn="Exception" requestColumn="Request" responseColumn="Response"/>
 	<internal level="Error" />
 </log>
@@ -164,19 +164,19 @@ It is required to specify the following parameters in the query as set values:
 
 > **Note**: Use of `userNameColumn` attribute and its corresponding `:username` parameter significantly increases the logging operation execution time. It is recommended not to use them unless necessary.
 
-%spoiler%Запись полей журнала SQL запросом. Пример раздела `<log>` web.config:%spoiler%
+%spoiler%Write the log fields by the SQL query. Example of `<log>` web.config:%spoiler% section
 
 ```XML
-<!--Параметры логирования задаются в элементе log/>-->
+<!--The logging parameters are set in the following item: log/>-->
 <log>
 	<fileSystem level="Off" maxArchiveFiles="30" encoding="utf-8" path="C:\Logs"/>
 	<eventLog level="Off" />
-	<!--Элемент database содержит настройки логирования в БД/>-->
-    <!--Атрибут connectionString содержит строку подключения к БД/>-->
-    <!--В примере используется драйвер OLEDB для SQLServer (должен быть установлен в системе)/>-->
-    <!--Атрибут sqlCommand задает запрос на запись события журнала/>-->
-    <!--При таком способе логирования имеется возможность модификации записей журнала/>-->
-    <!--В примере содержимое поля :response будет обрезано до 1000 знаков/>-->
+	<!--Database item contains the logging settings in the DB/>-->
+    <!--ConnectionString attribute contains the string of connection to the DB/>-->
+    <!--OLEDB driver for SQLServer is used in the example (it must be installed in the system)/>-->
+    <!--sqlCommand attribute sets the request to write the log events/>-->
+    <!--Such logging method enables to modify the log records/>-->
+    <!--The contents of :response field in the example will be cut up to 1000 signs/>-->
     <database connectionString="Provider=sqloledb; Server=192.168.0.1; Database=Integrator; User Id=sa; Password=Password123" level="All" sqlCommand="insert into Logs (Date, Level, MachineName, AppDomain, RequestId, PackageName, NodeName, Message, Exception, Request, Response) values (:date, :level, :machinename, :appdomain, :requestid, :packagename, :nodename, :message, :exception, :request, SUBSTRING( :response, 0, 999))"/>
     <internal level="Error" />
 </log>
