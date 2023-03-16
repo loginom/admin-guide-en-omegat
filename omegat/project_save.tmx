@@ -5168,8 +5168,8 @@ Done.</note>
       <tuv lang="RU">
         <seg>В зависимости от сложности вычислений можно определить необходимое число ядер, объём памяти, размер и количество дисков, а также зона доступности виртуальной машины.</seg>
       </tuv>
-      <tuv lang="EN" changeid="Марианна" changedate="20200610T205146Z" creationid="Марианна" creationdate="20200610T202611Z">
-        <seg>Depending on the complexity of computations, it is possible to define the required number of cores, storage capacity, size and amount of discs and accessibility zone of the virtual machine.</seg>
+      <tuv lang="EN" changeid="Марианна" changedate="20230316T051514Z" creationid="Марианна" creationdate="20200610T202611Z">
+        <seg>Depending on the complexity of computations, it is possible to define the required number of cores, storage capacity, size and amount of disks and accessibility zone of the virtual machine.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8432,8 +8432,8 @@ M: Done.</note>
       <tuv lang="RU">
         <seg>Перед началом выполнения команды ОС результат предыдущих этапов преобразования представляется в виде файла с именем, указанным в параметре &lt;x1/&gt;Исходное имя файла запроса&lt;x2/&gt;, и записывается на диск.</seg>
       </tuv>
-      <tuv lang="EN" changeid="Марианна" changedate="20200426T100247Z" creationid="Марианна" creationdate="20200426T094939Z">
-        <seg>Before the OS command execution  result of the previous transformation stages is represented as a file with the name specified in &lt;x1/&gt;The request file source name&lt;x2/&gt; parameter; then it is recorded to the disc.</seg>
+      <tuv lang="EN" changeid="Марианна" changedate="20230316T051447Z" creationid="Марианна" creationdate="20200426T094939Z">
+        <seg>Before the OS command execution  result of the previous transformation stages is represented as a file with the name specified in &lt;x1/&gt;The request file source name&lt;x2/&gt; parameter; then it is recorded to the disk.</seg>
       </tuv>
     </tu>
     <tu>
