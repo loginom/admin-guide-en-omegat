@@ -1,0 +1,32 @@
+---
+description: Loginom Integrator под Linux - общие сведения, системные требования, Apache.
+---
+
+# Loginom Integrator
+
+Компонент платформы, предоставляющий возможность публиковать собственные веб-сервисы.
+
+The Loginom Integrator usage allows for implementation of the solution architecture providing fault tolerance, load balance and horizontal scaling.
+
+## System Requirements
+
+| Component | Minimum | Recommended |
+|:--------- |:-------------|:------------- |
+| OS<sup>1</sup> | | CentOS (7+), Debian(10+), Fedora(36+), Ubuntu(16.04, 18.04, 20.04+), Astra Linux(1.7), RedOS(7) |
+| CPU x64 | 2 core | 4 core |
+| RAM | 2 GB | 4 GB |
+| Disk Space | 100 GB | 200 GB |
+
+<sup>1</sup> Дистрибутив должен содержать пакеты: glibc 2.17 и старше или musl 1.2.2 и старше.
+
+> **Примечание:** Платформа [.NET 6.0](https://learn.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#dependencies) должна поддерживаться в используемой операционной системе.
+
+## Interaction of Components
+
+Вызов сервисов Loginom можно производить, обращаясь напрямую к Integrator, а также опционально через Apache HTTP Server:
+
+![Интеграция с сервисами](../../images/intergator-linux.svg)
+
+## Установка
+
+Если Integrator поставляется вместе с [Loginom Server](../server/README.md), то они устанавливаются одновременно (при инсталляции Server-а). Каких-либо дополнительных действий в таком случае не требуется.

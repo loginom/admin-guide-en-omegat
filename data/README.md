@@ -6,23 +6,10 @@ description: Руководство администратора Loginom - ар�
 
 The [Loginom](https://loginom.ru) analytical platform can be operated in server mode for teamwork, and as a desktop application for personal analytics.
 
-## Teamwork
+Серверный режим для ОС [Windows](./windows/README.md) доступен в редакциях [Team](https://help.loginom.ru/userguide/compare-editions.html#team), [Standard](https://help.loginom.ru/userguide/compare-editions.html#standard) и [Enterprise](https://help.loginom.ru/userguide/compare-editions.html#enterprise). Для ОС [Linux](./linux/README.md) доступны редакции Standard и Enterprise.
 
-Server mode is available in Team, Standard and Enterprise editions.
+![Interaction of components](./images/server-windows-linux.svg)
 
-![Editions for the teamwork](./loginom-server-comparison.svg)
+Настольное приложение, предназначенное для автономной обработки данных на персональном компьютере, доступно в редакциях [Community](https://help.loginom.ru/userguide/compare-editions.html#community) и [Personal](https://help.loginom.ru/userguide/compare-editions.html#personal). Они содержат единственный компонент [Loginom Desktop](./desktop/README.md).
 
-| Component | Designation |
-|:----------|:-----------|
-| [Server](./server/README.md) | Key platform element. It must be installed and can be used as a Windows service. Interaction of all platform components is performed by means of the Loginom Server. |
-| [Integrator](./integrator/README.md) | The component required for publication of web services. It is operated with the Loginom Server. It must be installed and can be used as a Microsoft IIS service. |
-| [Adapter](./adapter/README.md) | The component required for integration with non-standard web services. It must be installed and can be used as a Microsoft IIS service. |
-| [Studio](./studio/README.md) | The client web application implementing user interface of the platform operation. Installation is not required, as interaction is provided through use of a browser. |
-
-## Personal Analytics
-
-Desktop components designated for stand-alone data processing using personal computers are available in Community and Personal editions. They contain only one component - [Loginom Desktop](./desktop/README.md).
-
-![Editions for Personal Work.](./loginom-desktop-comparison.svg)
-
-They must be installed and can be used as Windows applications. 32-bit and 64-bit versions are available.
+Требуют инсталляции и функционируют в виде Windows или Linux приложения.

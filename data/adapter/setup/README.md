@@ -67,7 +67,7 @@ dism /online /enable-feature /all /FeatureName:NetFx3 /LimitAccess /Source:D:\so
 
 ## Настройка лицензии Loginom Adapter
 
-Для работы *Адаптера* требуется настройка [ключей лицензирования](../../licenses/README.md).
+Для работы *Адаптера* требуется настройка [ключей лицензирования](../../licenses_general/README.md).
 
 При использовании сервера сетевых ключей требуется отредактировать файл [GnClient.ini](https://dev.guardant.ru/pages/viewpage.action?pageId=1277980) в каталоге `"C:\ProgramData\BaseGroup\Loginom 6\Adapter"`, указав в секции `[Server]` в поле `IP_NAME` адрес сервера ключей.
 

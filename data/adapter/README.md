@@ -4,12 +4,12 @@ There are [components of integration with the SOAP and REST services](https://he
 
 The *Adapter* is an intermediate web service between the workflow executed in Loginom and the external web services. Interaction with the *Adapter* from the Loginom workflow is performed according to the standard SOAP protocol using the [Web service invocation](https://help.loginom.ru/userguide/processors/integration/soap-request.html) node. In return the *Adapter performs the following tasks:*:
 
-- Transforms the SOAP request received from the Loginom workflow to the request format of the external web service
-- Sends the transformed request to the external web service
-- Receives the response of the external web service
-- Transforms the received response and returns it to the Loginom workflow in the SOAP format
+* преобразует полученный из сценария Loginom SOAP-запрос к формату запроса внешнего веб-сервиса;
+* направляет преобразованный запрос во внешний веб-сервис;
+* получает ответ внешнего веб-сервиса;
+* преобразует полученный ответ и в формате SOAP возвращает его сценарию Loginom.
 
-![Figure 1. Typical scheme of interaction of the system components using the Adapter](scheme-of-work_adapter.svg)
+![Figure 1. Типичная схема взаимодействия компонентов системы с использованием Adapter](../images/adapter.svg)
 
 ## System Requirements
 
@@ -36,14 +36,6 @@ The availability of some IIS and .Net Framework components is required for the  
 
 ### Optional Software
 
-The external cryptography service providers (Cryptography Service Provider, CSP) and Java Runtime Environment (JRE) can be used for work with some web services. In such cases, these components must be installed with the *Adapter*.
+Для работы с некоторыми веб-сервисами могут использоваться сторонние криптопровайдеры. In such cases, these components must be installed with the *Adapter*.
 
-#### Cryptography Service Provider (CSP)
-
-Cryptography service providers as Signal-COM CSP or CryptoPro CSP are used for data encryption in the case of integration with the external web services. Selection of cryptography service provider and its version is stipulated by support of the definite encryption algorithms required for interaction with the particular web services.
-
-Corresponding certificates will be required for use of a particular web service with encryption.
-
-#### Java Runtime Environment (JRE)
-
-Java Runtime Environment (JRE) version 6 or higher is a mandatory requirement for connection to the [National Hunter](https://bki-okb.ru/corp/services/national-hunter) and [Equifax FPS](https://www.equifax.ru) services.
+Selection of cryptography service provider and its version is stipulated by support of the definite encryption algorithms required for interaction with the particular web services. Corresponding certificates will be required for use of a particular web service with encryption.

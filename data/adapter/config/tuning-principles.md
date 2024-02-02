@@ -6,13 +6,13 @@ Being an intermediate web service, the *Adapter* serves both as a client concern
 
 The functional operation scheme of the *Adapter* is shown in Figure 7.
 
-![Figure 7. The Functional Operation Scheme of the Adapter](./images/functional_diagram.png)
+![Figure 7. The Functional Operation Scheme of the Adapter](./images/functional_diagram.svg)
 
 ## Configuration of the Client Role of the External Services
 
 Algorithm of actions at the stage of the request sending to the external service is shown in Figure 8.
 
-![Figure 8. The algorithm of Actions at the Stage of the Request Sending to the External Service](./images/algorithm_sending_request.png)
+![Figure 8. The algorithm of Actions at the Stage of the Request Sending to the External Service](./images/algorithm_sending_request.svg)
 
 As is shown in Figure 8, the first action after the SOAP request receipt from Loginom workflow is the XML request text selection from the SOAP package. According to the SOAP protocol description, the XML request to the web service is in the node body `Body` of the SOAP package. The SOAP package example is provided below:
 
@@ -78,7 +78,7 @@ The next processing stage can be an application of the OS command. Performance o
 
 While command executing, `%inputFile%` and `%outputFile%` templates are replaced with the values of the following parameters: *The request file source name* and *The resulting name of the request file* correspondingly. Full paths to the files or only the files' names can be stated in these parameters. The files will be placed into the folder with `Web.config` in the case of full path absence.
 
-Before the OS command execution  result of the previous transformation stages is represented as a file with the name specified in *The request file source name* parameter; then it is recorded to the disc. Then the OS command is applied to this file and the output file is formed. The output file content is then transferred to the next processing stage.
+Before the OS command execution  result of the previous transformation stages is represented as a file with the name specified in *The request file source name* parameter; then it is recorded to the disk. Then the OS command is applied to this file and the output file is formed. The output file content is then transferred to the next processing stage.
 
 If the values of *The request file source name* and *The resulting name of the request file* parameters are not specified, the files names will be generated according to randomly generated GUID (Globally Unique Identifier), without extension.  These temporary files will be also placed into the folder with `Web.config`. They will be deleted after processing.
 
@@ -137,7 +137,7 @@ The formed package is sent at the address specified in the *URL for the request 
 
 The algorithm of actions at the stage of the response receipt from the external service is shown in
 
-![Figure 10. The algorithm of Actions at the Stage of the Response Receipt from the External Service](./images/algorithm_receiving_response.png)
+![Figure 10. The algorithm of Actions at the Stage of the Response Receipt from the External Service](./images/algorithm_receiving_response.svg)
 
 In the case of a response receipt from the external service, the succession of the transformation stages is reverse. Upon receipt of the response message, it is decrypted (based on the HTTPS connection) and the response content is selected. In the case of the REST service, the response content is the message body (*Entity Body*) HTTP/HTTPS of the received package. In the case of the SOAP service, content of the `Body`node of the SOAP package is selected. Then the response content is transferred for processing by the OS command by applying the following parameters: *The response file source name*, *The resulting name of the response file*, *The response file processing command*. Then the operations reverse to the optional transformations and XSLT transformation with usage of the *XSLT for transformation of the response message*, and *XSLT parameters* parameters are performed. The final result of the transformation stages is the formation of the XML response, the structure of which complies with the XSD schema of the service description. This schema is used for the WSDL web service formation, and it is an obligatory component of the *Adapter* settings. The path to the schema is specified in *The schema to which the service description will refer the * parameter.
 

@@ -2,13 +2,13 @@
 
 **Loginom Desktop** can be uninstalled in several ways:
 
-* Uninstall the application from the "Programs and Features" window in Windows
-* Run the product installer, pressing the**"Remove"** button
+* удалить приложение из окна "Программы и компоненты" в Windows;
+* запустить инсталлятор продукта, нажать кнопку **"Удалить"**
 
 ![](../images/personal_msi_remove.png)
 
-* Execute the following command in the command line as an administrator:
+* выполнить в командной строке от имени администратора:
 
 ```cmd
-msiexec /x LoginomPersonal_6.x.x_x64.msi /qn
+msiexec /x LoginomPersonal_7.x.x.msi /qn
 ```

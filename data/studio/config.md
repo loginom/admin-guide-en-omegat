@@ -1,8 +1,8 @@
 # Configuration
 
-Path to the Loginom Studio configuration file: `%ProgramFiles%\BaseGroup\Loginom 6\Client\server.json`
+Путь к файлу конфигурации Loginom Studio: `%ProgramFiles%\Loginom\Client\server.json`
 
-URL connection to [Loginom server](../server/README.md) is set in the configuration file.
+URL connection to [Loginom server](../windows/server/README.md) is set in the configuration file.
 
 Default values:
 
@@ -13,7 +13,7 @@ Default values:
 }
 ```
 
-Resulting url:
+Результирующий url:
 
 * http: `ws://web-server-host:8080`
 * https: `wss://web-server-host:8443`
@@ -33,7 +33,7 @@ Loginom server host address. In the case of the `null` value the web server host
 }
 ```
 
-Resulting url:
+Результирующий url:
 
 * http: `ws://lg.domain.org:8080`
 * https: `wss://lg.domain.org:8443`
@@ -49,7 +49,7 @@ Port for connection using `websocket` protocol. In case of the `null` value, `80
 }
 ```
 
-Resulting url:
+Результирующий url:
 
 * http: `ws://web-server-host:9999`
 * https: insecure `websocket` connections are forbidden.
@@ -65,7 +65,7 @@ Port for connection using `websocket secure` protocol. In the case of the `null`
 }
 ```
 
-Resulting url:
+Результирующий url:
 
 * `wss://web-server-host:9443`
 
@@ -80,7 +80,7 @@ Connection to Loginom server by means of websocket proxy. In that case `host` an
 }
 ```
 
-Resulting url:
+Результирующий url:
 
 * `ws://web-server-host:443/ws/`
 
@@ -96,7 +96,7 @@ Connection path to WebSocket while `wsproxy` using. By default `ws/`.
 }
 ```
 
-Resulting url:
+Результирующий url:
 
 * `wss://web-server-host:443/any/`
 
@@ -115,7 +115,7 @@ If the parameter is specified and set in `true`, connection will be always perfo
 }
 ```
 
-Resulting url:
+Результирующий url:
 
 * without wsproxy: `wss://loginom-server-host:8443`
 * with wsproxy: `wss://web-server-host:443/ws/`
