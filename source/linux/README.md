@@ -8,7 +8,7 @@ description: Руководство администратора Loginom для 
 
 ## Коллективная работа
 
-Серверный режим доступен в редакциях Team, Standard и Enterprise.
+Серверный режим для ОС Linux доступен в редакциях [Standard](https://help.loginom.ru/userguide/compare-editions.html#standard) и [Enterprise](https://help.loginom.ru/userguide/compare-editions.html#enterprise).
 
 ![Редакции для коллективной работы](./../images/loginom-server-comparison-linux.svg)
 

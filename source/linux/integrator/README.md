@@ -12,12 +12,14 @@ description: Loginom Integrator под Linux - общие сведения, си
 
 | Компонент | Минимальные | Рекомендуемые |
 |:--------- |:-------------|:------------- |
-| OS | Ядро Linux версии 5.5 и выше | |
-| CPU x64 | 4 core ([SSE4.2](https://ru.wikipedia.org/wiki/SSE4#%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8_SSE4.2))  | 16 core ([SSE4.2](https://ru.wikipedia.org/wiki/SSE4#%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8_SSE4.2)) (Users x 1.6 core + 1 core) |
-| RAM | 8 GB | 16 GB (Users x 2GB + 2GB) |
-| Disk Space |200 GB | от 500 GB (+ User Data) |
-| Ping delay | <50мс | <15мс |
+| OS<sup>1</sup> | | CentOS (7+), Debian(10+), Fedora(36+), Ubuntu(16.04, 18.04, 20.04+), Astra Linux(1.7), RedOS(7) |
+| CPU x64 | 2 core | 4 core |
+| RAM | 2 GB | 4 GB |
+| Disk Space | 100 GB | 200 GB |
 
+<sup>1</sup> Дистрибутив должен содержать пакеты: glibc 2.17 и старше или musl 1.2.2 и старше.
+
+> **Примечание:** Платформа [.NET 6.0](https://learn.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#dependencies) должна поддерживаться в используемой операционной системе.
 
 ## Взаимодействие компонентов
 

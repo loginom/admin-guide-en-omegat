@@ -17,7 +17,7 @@ description: Руководство администратора по запус
 2. Проверить работоспособность служб "loginomd" и "apache2" командами "sudo systemctl status loginomd" и "sudo systemctl status apache2".
 3. Перейти в каталог loginom командой "cd /var/opt/loginom" и выполнить команду для смены пароля "sudo ./passwdchange.sh".
 4. Перезапустить виртуальную машину командой "sudo reboot".
-5. Зайти на веб-страницу приложения Loginom по адресу http://ваш_ip_или_домен/app/
+5. Зайти на веб-страницу приложения Loginom по адресу `http://ваш_ip_или_домен/app/`
 
      * Логин по умолчанию: "admin";
      * Учетные записи user и service по умолчанию отключены.
